@@ -1,4 +1,12 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Hugo Project'
 theme = "PaperMod"
+# 开启首页个人形象模式
+[params.profileMode]
+    enabled = true # 设为 true 开启此模式
+    title = "FinnZ" # 你的大标题（比如名字）
+    subtitle = "unknown" # 你的个性简介
+    imageUrl = "/images/002.jpg" # 你的头像图片路径（注意斜杠 /）
+    imageWidth = 120 # 头像显示的宽度
+    imageHeight = 120 # 头像显示的高度
