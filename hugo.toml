@@ -2,11 +2,13 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Hugo Project'
 theme = "PaperMod"
-# 开启首页个人形象模式
+# 1. 确保个人形象模式是关闭的（把文章列表召唤回来）
 [params.profileMode]
-    enabled = true # 设为 true 开启此模式
-    title = "FinnZ" # 你的大标题（比如名字）
-    subtitle = "unknown" # 你的个性简介
-    imageUrl = "/images/002.jpg" # 你的头像图片路径（注意斜杠 /）
-    imageWidth = 120 # 头像显示的宽度
-    imageHeight = 120 # 头像显示的高度
+    enabled = false
+
+# 2. 在网站最左上角添加头像 Logo 和名字
+[params.label]
+    text = "FinnZ"
+    icon = "/images/002.jpg"
+    iconHeight = 35
+
