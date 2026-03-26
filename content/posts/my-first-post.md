@@ -1,8 +1,14 @@
+---
+typora-root-url: ./..\..\static
+---
+
 +++
 date = '2026-03-25T22:53:59+08:00'
 draft = false
-title = 'My First Post'
+title = 'Test Post'
 
 +++
 
-你好
+hello
+
+![这是图片的文字描述](/images/195.jpg)
