@@ -8,7 +8,7 @@ theme = "PaperMod"
 
 # 2. 在网站最左上角添加头像 Logo 和名字
 [params.label]
-    text = "FinnZ"
+    text = "TF"
     icon = "/images/002.jpg"
     iconHeight = 35
 
