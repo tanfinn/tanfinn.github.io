@@ -12,7 +12,3 @@ theme = "PaperMod"
     icon = "/images/002.jpg"
     iconHeight = 35
 
-[params]
-    showtoc = true
-    tocopen = true
-
